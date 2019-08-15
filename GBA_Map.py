@@ -30,8 +30,8 @@ biofoundries['geometry'] = biofoundries['geometry'].apply(Point)
 #geo_biofoundries['coords'] = [coords[0] for coords in geo_biofoundries['coords']]
 
 #Plot the map
-fig = world.plot(cmap='Greys',column='Unification',figsize=(30, 20),edgecolor='black')
-geo_biofoundries.plot(ax=fig, marker='o', color='red', markersize=20)
+fig = world.plot(cmap='Greys',column='Unification',figsize=(30, 30),edgecolor='black')
+geo_biofoundries.plot(ax=fig, marker='o', color='blue', markersize=20)
 
 #Required for autolabelling
 #for idx, row in geo_biofoundries.iterrows():
