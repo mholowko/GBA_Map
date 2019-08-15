@@ -1,2 +1,2 @@
 # GBA_Map
-Map generator for Global Biofoundry Alliance
+Map generator for the Global Biofoundry Alliance.
